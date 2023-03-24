@@ -1,0 +1,15 @@
+@media (max-width: 935px) {
+  ytmusic-player-page {
+    #main-panel.ytmusic-player-page {
+      display: none !important;
+    }
+
+    .side-panel.ytmusic-player-page {
+      margin-top: 0;
+    }
+
+    .content {
+      padding-top: 0 !important;
+    }
+  }
+}

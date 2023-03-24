@@ -1,0 +1,20 @@
+{
+  "name": "ytmusic-experience",
+  "description": "chrome extension that helps to improve user experience of youtube music at desktop.",
+  "manifest_version": 3,
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://music.youtube.com/*"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "script.js"
+      ]
+    }
+  ],
+  "options_page": "option.html"
+}

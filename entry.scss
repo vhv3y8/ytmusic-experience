@@ -1,0 +1,40 @@
+@import "./media.scss";
+@import "./imports.scss";
+
+// top header bar
+ytmusic-nav-bar {
+  background-color: #333;
+}
+
+ytmusic-player-page#player-page {
+  background-color: #333;
+}
+
+ytmusic-section-list-renderer {
+  background-color: #333;
+}
+
+// playlist page header
+#header>ytmusic-detail-header-renderer {
+  background-color: #333;
+}
+
+ytmusic-app-layout#layout {
+  background-color: #333;
+
+  #nav-bar-background {
+    background-color: #333;
+  }
+}
+
+ytmusic-description-shelf-renderer {
+  yt-formatted-string {
+    font-family: 'Sawarabi Gothic', sans-serif !important;
+    font-size: 18px !important;
+    color: #d9d9d9 !important;
+    line-height: 1.5 !important;
+    padding-left: 2em !important;
+  }
+
+  button#description-button {}
+}

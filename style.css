@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap");
+@media (max-width: 935px) {
+  ytmusic-player-page #main-panel.ytmusic-player-page {
+    display: none !important;
+  }
+  ytmusic-player-page .side-panel.ytmusic-player-page {
+    margin-top: 0;
+  }
+  ytmusic-player-page .content {
+    padding-top: 0 !important;
+  }
+}
+ytmusic-nav-bar {
+  background-color: #333;
+}
+
+ytmusic-player-page#player-page {
+  background-color: #333;
+}
+
+ytmusic-section-list-renderer {
+  background-color: #333;
+}
+
+#header > ytmusic-detail-header-renderer {
+  background-color: #333;
+}
+
+ytmusic-app-layout#layout {
+  background-color: #333;
+}
+ytmusic-app-layout#layout #nav-bar-background {
+  background-color: #333;
+}
+
+ytmusic-description-shelf-renderer yt-formatted-string {
+  font-family: "Sawarabi Gothic", sans-serif !important;
+  font-size: 18px !important;
+  color: #d9d9d9 !important;
+  line-height: 1.5 !important;
+  padding-left: 2em !important;
+}
